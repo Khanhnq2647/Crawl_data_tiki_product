@@ -17,8 +17,8 @@ for i in range(number_product):
 print("Input number's page, you want crawl:", end ='')
 number_page = int(input())
 #print(url_list_product_target)
-print("Number of page is:", number_page)
-print("Total Number is: ",number_page*number_product)
+#print("Number of page is:", number_page)
+print("Total Number of page is: ",number_page*number_product)
 headers = {
           'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:86.0) Gecko/20100101 Firefox/86.0',
           'TE': 'Trailers'
